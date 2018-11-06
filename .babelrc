@@ -1,0 +1,14 @@
+{
+  "presets": ["stage-2", "latest"],
+  "plugins": [
+      "transform-decorators-legacy",
+      [
+          "transform-runtime", {
+              "helpers": false,
+              "polyfill": true,
+              "regenerator": true,
+              "moduleName": "babel-runtime"
+         }
+      ]
+  ]
+}
