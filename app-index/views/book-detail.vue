@@ -16,7 +16,7 @@ export default {
   name: "book-detail",
   data() {
     return {
-      msg: "详情"
+      msg: "This view is 'bookDetail'."
     };
   },
   mounted() {

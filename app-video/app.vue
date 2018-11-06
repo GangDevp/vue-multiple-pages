@@ -10,7 +10,7 @@ export default {
   name: "app",
   data() {
     return {
-      msg: "this is video page."
+      msg: "Welcome use vue-multiple-pages.This is homepage at 'app-video'."
     };
   }
 };

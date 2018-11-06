@@ -1,6 +1,6 @@
 <template>
 	<div class="book-list-warp">
-    <h1>book-list {{msg}}</h1>
+    <h1>{{msg}}</h1>
     <ul class="book-list">
       <li v-for="(item, index) in list" :key="index">
         <span>{{item.name}}</span>
@@ -17,7 +17,7 @@ export default {
   name: "book-list",
   data() {
     return {
-      msg: "Welcome to book library!"
+      msg: "This view is 'bookList'."
     };
   },
   mounted() {

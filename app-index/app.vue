@@ -10,7 +10,7 @@ export default {
   name: "app",
   data() {
     return {
-      msg: "hello vue-multiple-pages,this is homepage."
+      msg: "Welcome use vue-multiple-pages.This is homepage at 'app-index'."
     };
   }
 };

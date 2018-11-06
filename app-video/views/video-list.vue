@@ -16,7 +16,7 @@ export default {
   name: "video-list",
   data() {
     return {
-      msg: "Welcome to video library!"
+      msg: "This view is 'videoList'."
     };
   },
   mounted() {
